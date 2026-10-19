@@ -19,16 +19,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@ai-sdk/gateway@npm:3.0.206":
-  version: 3.0.206
-  resolution: "@ai-sdk/gateway@npm:3.0.206"
+"@ai-sdk/gateway@npm:4.0.115":
+  version: 4.0.115
+  resolution: "@ai-sdk/gateway@npm:4.0.115"
   dependencies:
-    "@ai-sdk/provider": "npm:3.0.18"
-    "@ai-sdk/provider-utils": "npm:4.0.56"
+    "@ai-sdk/provider": "npm:4.0.28"
+    "@ai-sdk/provider-utils": "npm:5.0.61"
     "@vercel/oidc": "npm:3.2.0"
   peerDependencies:
     zod: ^3.25.76 || ^4.1.8
-  checksum: 10c0/3ce9a9c073aa71c461365e4336b56fed0a0ba4f5e73b6743c33dcac671cc78be2578dd443dd1b5a1bfd11dd586d5399c4ced169fbb98cda4b654e636c2c91f31
+  checksum: 10c0/d0e98599ac668b95897394047f0d32a29b9ad018e9580bc7d448ae9ada8e17149f8cf2ba2c229b7f74437aff77436c99ca045477ac7cd2b571fdd254daca0c08
   languageName: node
   linkType: hard
 
@@ -58,12 +58,36 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@ai-sdk/provider-utils@npm:5.0.61":
+  version: 5.0.61
+  resolution: "@ai-sdk/provider-utils@npm:5.0.61"
+  dependencies:
+    "@ai-sdk/provider": "npm:4.0.28"
+    "@standard-schema/spec": "npm:^1.1.0"
+    "@workflow/serde": "npm:4.1.0"
+    eventsource-parser: "npm:^3.0.8"
+    undici: "npm:^7.29.0"
+  peerDependencies:
+    zod: ^3.25.76 || ^4.1.8
+  checksum: 10c0/bdeb207e6fcfb5de970fb5d8b2db9aad8e6ab0601bc3d99a53d9ea0b095fe6f0eb1b9d67064eff380b28f252f8a712f1f60864cc24988f4118542b0edce991c6
+  languageName: node
+  linkType: hard
+
 "@ai-sdk/provider@npm:3.0.18":
   version: 3.0.18
   resolution: "@ai-sdk/provider@npm:3.0.18"
   dependencies:
     json-schema: "npm:^0.4.0"
   checksum: 10c0/ec3a4cc01f3724a95c0b20c8cff936ceb27750717158a9df9a6dacd601ce0733c989b5f8ce17d12ea188dc25efeea41f23719c7a01aa41d4911618a6e3848e9e
+  languageName: node
+  linkType: hard
+
+"@ai-sdk/provider@npm:4.0.28":
+  version: 4.0.28
+  resolution: "@ai-sdk/provider@npm:4.0.28"
+  dependencies:
+    json-schema: "npm:^0.4.0"
+  checksum: 10c0/00375df617caa30e58b9639acb7705cad21de7d8220470f64515de1323f2d1914e7d74e03bb372254b8e216d59866b93d901ba766fb852405afe93f8c8409e14
   languageName: node
   linkType: hard
 
@@ -2783,7 +2807,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@opentelemetry/api@npm:^1.3.0, @opentelemetry/api@npm:^1.9.0, @opentelemetry/api@npm:^1.9.1":
+"@opentelemetry/api@npm:^1.3.0, @opentelemetry/api@npm:^1.9.1":
   version: 1.9.1
   resolution: "@opentelemetry/api@npm:1.9.1"
   checksum: 10c0/c608485fc8b5a91e1f7e05e843b45b509307456b31cd2ad365933d90813e40ebfedf179f1451c762037e82d7c76aa8500e95d2da3609f640a1206cde5322cd14
@@ -7123,6 +7147,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@workflow/serde@npm:4.1.0":
+  version: 4.1.0
+  resolution: "@workflow/serde@npm:4.1.0"
+  checksum: 10c0/8ec68cd9448b486bc8244d1f2b33d64d4af4b0fc18d33417699ce29345b21e4359d880c5ea5d66872def4576c0cddcfa2a63282d1f4d661c455663c075595e81
+  languageName: node
+  linkType: hard
+
 "abbrev@npm:^3.0.0":
   version: 3.0.1
   resolution: "abbrev@npm:3.0.1"
@@ -7253,17 +7284,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ai@npm:^6.0.168":
-  version: 6.0.297
-  resolution: "ai@npm:6.0.297"
+"ai@npm:^7.0.142":
+  version: 7.0.142
+  resolution: "ai@npm:7.0.142"
   dependencies:
-    "@ai-sdk/gateway": "npm:3.0.206"
-    "@ai-sdk/provider": "npm:3.0.18"
-    "@ai-sdk/provider-utils": "npm:4.0.56"
-    "@opentelemetry/api": "npm:^1.9.0"
+    "@ai-sdk/gateway": "npm:4.0.115"
+    "@ai-sdk/provider": "npm:4.0.28"
+    "@ai-sdk/provider-utils": "npm:5.0.61"
   peerDependencies:
     zod: ^3.25.76 || ^4.1.8
-  checksum: 10c0/a85a5dfe1a8cd27388afb03393e7c0d95c9855459d40cbda65a72c388137a7ad44fc5b1003caf8dec687de2faa6bfc356b0bbcf4e7c94ca53e2bf6250373e7e6
+  checksum: 10c0/b01321a7dae5b282029496e2fba700dcf2b0f6cb83ccd464cedd1c49a97df2bcd44987ac142c49bc634f3883336e74168bc3d8258be49ecb0d899d31e180cf0e
   languageName: node
   linkType: hard
 
@@ -13886,7 +13916,7 @@ __metadata:
     "@types/express": "npm:^5.0.6"
     "@types/node": "npm:^25.6.0"
     "@typescript-eslint/parser": "npm:^8.62.1"
-    ai: "npm:^6.0.168"
+    ai: "npm:^7.0.142"
     dotenv: "npm:^17.4.2"
     eslint: "npm:^10.2.1"
     express: "npm:^5.2.1"
@@ -16278,6 +16308,13 @@ __metadata:
   version: 6.29.0
   resolution: "undici@npm:6.29.0"
   checksum: 10c0/3fb2117985be977ba8b6bd6a242fec915e1b1d0f9681f5adb3f508fb1717352452d65bcfd3bed09e7c776cfda403a4e8edb24a318492f8b2d793439af2b8699b
+  languageName: node
+  linkType: hard
+
+"undici@npm:^7.29.0":
+  version: 7.30.1
+  resolution: "undici@npm:7.30.1"
+  checksum: 10c0/c838089b010e8e28a9a5358d4bf4621e0c8d7bb70058b23e819667349c4c0b6791a7c8bc9bbe94ff0923db132faae0d9d9592b9743eda4f2b49466fa57482213
   languageName: node
   linkType: hard
 
